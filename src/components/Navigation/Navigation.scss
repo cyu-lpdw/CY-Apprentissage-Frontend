@@ -1,0 +1,23 @@
+@use '../../styles/vars.scss';
+
+.navigation {
+    background-color: vars.$blue-color;
+    color: vars.$white-color;
+    height: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.navigation-brand {
+    font-size: 2rem;
+}
+
+.navigation-log {
+    width: 15rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
