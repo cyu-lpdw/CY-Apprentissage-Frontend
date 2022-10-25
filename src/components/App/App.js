@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import HomePage from '../../sets/HomePage/HomePage';
 import SignInPage from '../../sets/SignInPage/SignInPage';
+import SignUpPage from '../../sets/SignUpPage/SignUpPage';
 import ProfilePage from '../../sets/ProfilePage/ProfilePage';
 
 function App () {
@@ -20,6 +21,12 @@ function App () {
                     path="/connexion"
                     element={(
                         <SignInPage />
+                    )}
+                />
+                <Route
+                    path="/inscription"
+                    element={(
+                        <SignUpPage />
                     )}
                 />
                 <Route

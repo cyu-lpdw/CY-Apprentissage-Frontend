@@ -1,0 +1,61 @@
+@use '../../styles/vars.scss';
+
+.sign-up-body {
+    background-color: vars.$blue-color;
+    color: vars.$white-color;
+    margin: 0 auto;
+    padding: 5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px vars.$black-color;
+}
+
+.sign-up-title {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sign-up-lastname,
+.sign-up-firstname,
+.sign-up-mail,
+.sign-up-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-lastname label,
+.sign-up-firstname label,
+.sign-up-mail label,
+.sign-up-password label {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.sign-up-lastname input,
+.sign-up-firstname input,
+.sign-up-mail input,
+.sign-up-password input {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.sign-up-button {
+text-align: center;
+}
+
+.sign-up-button button {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: vars.$white-color;
+    color: vars.$blue-color;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+.sign-up-button button:hover {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px vars.$black-color;
+}
