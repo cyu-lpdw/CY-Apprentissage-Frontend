@@ -1,0 +1,23 @@
+@use '../../styles/vars.scss';
+
+.footer {
+    background-color: vars.$blue-color;
+    color: vars.$white-color;
+    height: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.footer-brand {
+    font-size: 2rem;
+}
+
+.footer-links {
+    width: 38rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
