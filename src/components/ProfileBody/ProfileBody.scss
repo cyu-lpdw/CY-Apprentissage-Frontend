@@ -1,0 +1,35 @@
+@use '../../styles/vars.scss';
+
+.profile-body {
+    margin: 2rem 8rem;
+}
+
+.profile-lead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.create-button {
+    padding: 0.25rem 1rem;
+    background-color: vars.$blue-color;
+    color: vars.$white-color;
+    border: none;
+    border-radius: 20px;
+}
+
+.create-button:hover {
+    background-color: vars.$white-color;
+    color: vars.$blue-color;
+    border: 1px solid vars.$blue-color;
+}
+
+.profile-text {
+    margin-top: 1.5rem;
+    text-align: justify;
+}

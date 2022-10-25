@@ -3,7 +3,7 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 
 import HomePage from '../../sets/HomePage/HomePage';
-import ProfilPage from '../../sets/ProfilPage/ProfilPage';
+import ProfilePage from '../../sets/ProfilePage/ProfilePage';
 
 function App () {
     return (
@@ -18,7 +18,7 @@ function App () {
                 <Route
                     path="/profil"
                     element={(
-                        <ProfilPage />
+                        <ProfilePage />
                     )}
                 />
             </Routes>
