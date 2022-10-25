@@ -3,6 +3,7 @@ import './App.scss';
 import { Routes, Route } from 'react-router-dom';
 
 import HomePage from '../../sets/HomePage/HomePage';
+import ProfilPage from '../../sets/ProfilPage/ProfilPage';
 
 function App () {
     return (
@@ -12,6 +13,12 @@ function App () {
                     path="/"
                     element={(
                         <HomePage />
+                    )}
+                />
+                <Route
+                    path="/profil"
+                    element={(
+                        <ProfilPage />
                     )}
                 />
             </Routes>
