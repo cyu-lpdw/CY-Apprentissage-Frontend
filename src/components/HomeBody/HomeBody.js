@@ -2,7 +2,7 @@ import './HomeBody.scss';
 
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp } from "react-icons/fa";
 
-function HomeBody () {
+function HomeBody() {
     return (
         <div className="home-body">
             <div className="brand">
@@ -17,7 +17,7 @@ function HomeBody () {
                 <div className="category-box">
                     <div className="category-left">
                         <div className="category-name">HTML</div>
-                        <div className="category-icon"><FaHtml5/></div>
+                        <div className="category-icon"><FaHtml5 /></div>
                     </div>
                     <div className="category-right">
                         <div className="category-text">
@@ -30,7 +30,7 @@ function HomeBody () {
                 <div className="category-box">
                     <div className="category-left">
                         <div className="category-name">CSS</div>
-                        <div className="category-icon"><FaCss3Alt/></div>
+                        <div className="category-icon"><FaCss3Alt /></div>
                     </div>
                     <div className="category-right">
                         <div className="category-text">
@@ -43,7 +43,7 @@ function HomeBody () {
                 <div className="category-box">
                     <div className="category-left">
                         <div className="category-name">JS</div>
-                        <div className="category-icon"><FaJsSquare/></div>
+                        <div className="category-icon"><FaJsSquare /></div>
                     </div>
                     <div className="category-right">
                         <div className="category-text">
@@ -56,7 +56,7 @@ function HomeBody () {
                 <div className="category-box">
                     <div className="category-left">
                         <div className="category-name">PHP</div>
-                        <div className="category-icon"><FaPhp/></div>
+                        <div className="category-icon"><FaPhp /></div>
                     </div>
                     <div className="category-right">
                         <div className="category-text">

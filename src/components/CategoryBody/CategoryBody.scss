@@ -1,0 +1,79 @@
+@use '../../styles/vars.scss';
+
+h1 {
+    font-size: 50px;
+}
+
+.bloc1text {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    padding-top: 10px;
+    margin-right: 50px;
+    font-size: 18px;
+    color: white;
+    border: solid;
+    border-color: vars.$blue-color;
+    border-radius: 10px;
+    background-color: vars.$blue-color;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+}
+
+h5 {
+    color: vars.$blue-color;
+    font-size: 20px;
+}
+
+h6 {
+    color: vars.$blue-color;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.sousbloc2-first {
+    display: flex;
+}
+
+.titledateuser {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soustitre {
+    margin-right: 800px;
+    color: black
+}
+
+.username {
+    margin-bottom: 10px;
+}
+
+.bloc1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.bloc2 p {
+    margin-bottom: 40px;
+}
+
+.bloc3 {
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.bodynotitle {
+    margin-left: 90px;
+}
