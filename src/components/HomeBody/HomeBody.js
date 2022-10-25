@@ -1,6 +1,8 @@
 import './HomeBody.scss';
 
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
+
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaPhp, FaReact, FaSymfony } from "react-icons/fa";
 
 function HomeBody () {
     return (
@@ -24,6 +26,9 @@ function HomeBody () {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                         </div>
+                        <NavLink to="/categorie/html" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
                     </div>
                 </div>
 
@@ -37,6 +42,9 @@ function HomeBody () {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                         </div>
+                        <NavLink to="/categorie/css" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
                     </div>
                 </div>
 
@@ -50,6 +58,9 @@ function HomeBody () {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                         </div>
+                        <NavLink to="/categorie/javascript" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
                     </div>
                 </div>
 
@@ -63,6 +74,41 @@ function HomeBody () {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
                         </div>
+                        <NavLink to="/categorie/php" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
+                    </div>
+                </div>
+
+                <div className="category-box">
+                    <div className="category-left">
+                        <div className="category-name">REACT</div>
+                        <div className="category-icon"><FaReact/></div>
+                    </div>
+                    <div className="category-right">
+                        <div className="category-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
+                        </div>
+                        <NavLink to="/categorie/react" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
+                    </div>
+                </div>
+
+                <div className="category-box">
+                    <div className="category-left">
+                        <div className="category-name">SYMFONY</div>
+                        <div className="category-icon"><FaSymfony/></div>
+                    </div>
+                    <div className="category-right">
+                        <div className="category-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque et nulla at pretium. Nulla posuere lorem vel magna vehicula, a auctor massa eleifend.
+                        </div>
+                        <NavLink to="/categorie/symfony" underline="none">
+                            <button className="category-button">Liste des cours</button>
+                        </NavLink>
                     </div>
                 </div>
             </div>

@@ -31,6 +31,7 @@
     height: 15rem;
     border: 0.5px solid vars.$black-color;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px vars.$black-color;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -47,7 +48,7 @@
 .category-name {
     margin-bottom: 1rem;
     color: vars.$black-color;
-    font-size: 2rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
@@ -59,6 +60,21 @@
 
 .category-text {
     text-align: justify;
+}
+
+.category-button {
+    margin-top: 1rem;
+    padding: 0.25rem 1rem;
+    background-color: vars.$blue-color;
+    color: vars.$white-color;
+    border: none;
+    border-radius: 20px;
+}
+
+.category-button:hover {
+    background-color: vars.$white-color;
+    color: vars.$blue-color;
+    border: 1px solid vars.$blue-color;
 }
 
 @media (max-width: 1000px) {
